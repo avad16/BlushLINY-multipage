@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    background-color: #F4DBF3;
+    padding: 15px 15px;
+    font-family: 'Lalezar', cursive;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+#logo img{
+    width: 150px;
+    margin-top: 0%;
+
+}
+/* navigation styles */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+}
+
+
+nav a{ 
+    color: #FF7033;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px 30px;
+    margin: 0%;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.home img {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px 20px;
+}
+
+.product-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-clip-margin: content-box;
+    max-width: 100%;
+    height: 440px;
+
+}
+h1{
+    color: #FF7033;
+     font-size: 150px;
+     font-family: 'Lalezar', cursive;
+     font-weight: 400;
+     line-height: 2px;
+     word-wrap: break-word;
+     margin-top: -5px;
+}
+
+h3{
+    color: white;
+     font-size: 30px;
+     font-family: 'Lalezar', cursive;
+     font-weight: 400;
+     word-wrap: break-word;
+     margin-top: -3%;
+}
+
+h4{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lalezar', cursive;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 0%;
+    text-align: center;
+    text-justify: auto;
+}
+/* home*/
+
+.Hi{
+    color: #FEAC8A;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 6px;
+    word-wrap: break-word
+    font-family: 'La Belle Aurore', cursive;
+    margin-top: -1%;
+}
+
+.square{
+    width: 2000px;
+    height: 650px;
+    background: #E384DD;
+    z-index: -10;
+    position: absolute;
+    top: 450px;
+    border-radius: 2%;
+    }
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+
+}
+
+.home main{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
