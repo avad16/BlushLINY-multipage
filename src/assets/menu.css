@@ -1,6 +1,6 @@
 :root {
-    --header-height: 130px;
-    --menu-bg: #9ae9cf;
+    --header-height: 80px;
+    --menu-bg: #F4DBF3;
 }
 
 body {
@@ -49,12 +49,16 @@ nav a {
     background: transparent;
 }
 
+.btn-toggle-menu svg {
+    fill: #FF7033;
+}
+
 .main-nav-hidden {
     display: none;
 }
 
 
-@media (min-width: 640px) {
+@media (min-width: 850px) {
     nav {
         flex-direction: row;
         height: var(--header-height);
