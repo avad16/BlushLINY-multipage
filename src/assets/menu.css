@@ -1,6 +1,7 @@
 :root {
-    --header-height: 80px;
+    --header-height: 100px;
     --menu-bg: #F4DBF3;
+ 
 }
 
 body {
@@ -22,7 +23,7 @@ header {
 }
 
 header img {
-    padding: 20px;
+    padding: 10px;
 }
 
 nav {
