@@ -79,11 +79,11 @@ h3{
 
 .square{
     width: 1450px;
-    height: 1100px;
+    height: 1000px;
     background: #E384DD;
     z-index: -10;
     position: absolute;
-    top: 450px;
+    top: 550px;
     border-radius: 2%;
     }
 
@@ -110,6 +110,13 @@ h3{
 
 .about h1{
     font-size: 100px;
+    color: #FF7033;
+    font-family: Lalezar;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    
+    
 }
 
 #hannahandava img{
@@ -139,6 +146,53 @@ h3{
 
 .products h1{
     font-size: 100px;
+    color: #FF7033;
+    font-family: Lalezar;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#productimages img{
+    display: flex;
+    width: 700px;
+    height: auto;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products h2{
+    text-align: center;
+    color: #FF7033;
+    font-size: 40px;
+    font-family: Lalezar;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.products h3{
+    color: #E384DD;
+    font-size: 25px;
+    font-family: Lalezar;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 580px;
+    inline-size: 700px;
+    overflow-wrap: break-word;
+}
+
+.products h4{
+    color: black;
+    font-size: 40px;
+    font-family: Lalezar;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+    text-align: center;
 }
 
 /* Contact Us*/
@@ -149,8 +203,14 @@ h3{
 
 .contact h1{
     font-size: 100px;
+    color: #FF7033;
+    font-family: Lalezar;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
 }
 
 .contact h2{
     font-size: 30px;
+    text-align: left;
 }
