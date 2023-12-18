@@ -6,6 +6,10 @@ body{
     font-family: 'La Belle Aurore', cursive;
 }
 
+.footer{
+    text-align: center;
+}
+
 
 #logo img{
     width: 150px;
@@ -37,10 +41,20 @@ nav a:hover{
 
 
 #blushheader img{
-    width: 1450px;
-    height: 400px;
+    width: 2400px;
+    height: auto;
     margin-top: -90px;
+    max-width: 100%;
+    max-height: 100%;
 
+}
+
+#productcollage img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 50px;
 }
 
 
@@ -57,7 +71,7 @@ nav a:hover{
 }
 
 h3{
-    color: white;
+    color: #E384DD;
      font-size: 30px;
      font-family: 'Lalezar', cursive;
      font-weight: 400;
@@ -68,7 +82,7 @@ h3{
 /* home*/
 
 .tagline{
-    color: #ffffff;
+    color: #E384DD;
     font-size: 55px;
     font-weight: 400;
     line-height: 1.1;
@@ -78,13 +92,13 @@ h3{
 }
 
 .square{
-    width: 1450px;
-    height: 1000px;
+    width: 1400px;
+    height: 950px;
     background: #E384DD;
     z-index: -10;
     position: absolute;
-    top: 550px;
-    border-radius: 2%;
+    top: 620px;
+    border-radius: 25px;
     }
 
 .row{
@@ -120,21 +134,39 @@ h3{
 }
 
 #hannahandava img{
-    width: 650px;
-    height: 500px;
-    display: block;
+    width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    top: 4px;
+}
+
+.aboutsquare{
+    width: 1400px;
+    height: 1400px;
+    background: #E384DD;
+    z-index: -10;
+    position: absolute;
+    top: 260px;
+    border-radius: 25px;
+    max-width: 100%;
 }
 
 .about h2{
-    color: #E384DD;
+    color: white;
     font-family: 'Lalezar', cursive;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
     text-align: center;
+    bottom: 200px;
+    width: 1000px;
+    margin: auto;
 }
 
 /* Products*/
@@ -155,17 +187,27 @@ h3{
 
 #productimages img{
     display: flex;
-    width: 700px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
     height: auto;
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+#productimages img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .5s ease;
 }
 
 .products h2{
     text-align: center;
-    color: #FF7033;
-    font-size: 40px;
+    color: #ffd3c1;
+    font-size: 50px;
     font-family: Lalezar;
     font-weight: 400;
     line-height: 22px;
@@ -173,16 +215,16 @@ h3{
 }
 
 .products h3{
-    color: #E384DD;
+    text-align: center;
+    color: white;
     font-size: 25px;
     font-family: Lalezar;
     font-weight: 400;
     line-height: 30px;
-    text-align: center;
-    padding-top: 40px;
-    margin-left: 580px;
-    inline-size: 700px;
-    overflow-wrap: break-word;
+    padding-top: 5px;
+    word-wrap: break-word;
+    width: 750px;
+    margin: auto;
 }
 
 .products h4{
@@ -193,6 +235,17 @@ h3{
     line-height: 22px;
     word-wrap: break-word;
     text-align: center;
+}
+
+.productsquare{
+    width: 1400px;
+    height: 3900px;
+    background: #E384DD;
+    z-index: -10;
+    position: absolute;
+    top: 260px;
+    border-radius: 25px;
+    max-width: 100%;  
 }
 
 /* Contact Us*/
@@ -211,6 +264,18 @@ h3{
 }
 
 .contact h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -70px;
+    color: #E384DD;
+
+
+}
+
+.contact h3{
     font-size: 30px;
-    text-align: left;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 80px;
+    color: #E384DD;
 }
