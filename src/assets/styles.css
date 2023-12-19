@@ -167,6 +167,7 @@ h3{
     bottom: 200px;
     width: 1000px;
     margin: auto;
+    margin-bottom: 80px;
 }
 
 /* Products*/
@@ -235,11 +236,12 @@ h3{
     line-height: 22px;
     word-wrap: break-word;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .productsquare{
     width: 1400px;
-    height: 3900px;
+    height: 4000px;
     background: #E384DD;
     z-index: -10;
     position: absolute;
@@ -275,7 +277,7 @@ h3{
 .contact h3{
     font-size: 30px;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 100px;
     margin-bottom: 80px;
     color: #E384DD;
 }
